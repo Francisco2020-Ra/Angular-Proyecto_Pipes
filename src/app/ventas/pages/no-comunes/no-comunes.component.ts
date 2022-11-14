@@ -35,5 +35,10 @@ export class NoComunesComponent {
     this.clientes.shift();    
   }
 
+  persona = {
+    nombre: 'Fernando',
+    edad: 35,
+    direccion: 'Otawa, Canadá'
+  }
 
 }
